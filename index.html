@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title> ฅ^•ﻌ•^ฅ </title>
+</head>
+<body>
+  <div class = click>
+    <h3> click the minmin </h3>
+  </div>
+  <div class="flip-card-container">
+    <div class="flip-card">
+      <div class="flip-card-front">
+        <img src="chef lia.jpg" alt=" ">
+      </div>
+      <div class="flip-card-back">
+        <p>
+          <em>I admire the way you handle a knife and toss ingredients to perfection. You don't just cook, you serve.
+ 
+            <br><br>Indeed, even if you didn't cook, you'd still be the whole damn meal.
+          </em>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var flipCardContainer = document.querySelector('.flip-card-container');
+        flipCardContainer.addEventListener('click', function() {
+            this.querySelector('.flip-card').classList.toggle('flipped');
+        });
+    });
+  </script>
+</body>
+</html>
